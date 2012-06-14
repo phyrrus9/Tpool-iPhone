@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A6AB0E9156A79AE00E30C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6AB0E8156A79AE00E30C39 /* UIKit.framework */; };
+		4A6AB0EB156A79AE00E30C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6AB0EA156A79AE00E30C39 /* Foundation.framework */; };
+		4A6AB0ED156A79AE00E30C39 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6AB0EC156A79AE00E30C39 /* CoreGraphics.framework */; };
+		4A6AB0EF156A79AE00E30C39 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6AB0EE156A79AE00E30C39 /* CoreData.framework */; };
+		4A6AB0F5156A79AE00E30C39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A6AB0F3156A79AE00E30C39 /* InfoPlist.strings */; };
+		4A6AB0F7156A79AE00E30C39 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A6AB0F6156A79AE00E30C39 /* main.cpp */; };
+		4A6AB0FE156A79AE00E30C39 /* Tpool_iPhone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A6AB0FC156A79AE00E30C39 /* Tpool_iPhone.xcdatamodeld */; };
+		4A6AB106156A79AE00E30C39 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6AB105156A79AE00E30C39 /* SenTestingKit.framework */; };
+		4A6AB107156A79AE00E30C39 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6AB0E8156A79AE00E30C39 /* UIKit.framework */; };
+		4A6AB108156A79AE00E30C39 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6AB0EA156A79AE00E30C39 /* Foundation.framework */; };
+		4A6AB109156A79AE00E30C39 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A6AB0EE156A79AE00E30C39 /* CoreData.framework */; };
+		4A6AB111156A79AE00E30C39 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4A6AB10F156A79AE00E30C39 /* InfoPlist.strings */; };
+		4A6AB114156A79AE00E30C39 /* Tpool_iPhoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A6AB113156A79AE00E30C39 /* Tpool_iPhoneTests.m */; };
+		4A6AB11F156A7A0300E30C39 /* Thread.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4A6AB11D156A7A0300E30C39 /* Thread.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A6AB10A156A79AE00E30C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A6AB0DB156A79AD00E30C39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A6AB0E3156A79AE00E30C39;
+			remoteInfo = "Tpool-iPhone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A6AB0E4156A79AE00E30C39 /* Tpool-iPhone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tpool-iPhone.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6AB0E8156A79AE00E30C39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4A6AB0EA156A79AE00E30C39 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4A6AB0EC156A79AE00E30C39 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4A6AB0EE156A79AE00E30C39 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		4A6AB0F2156A79AE00E30C39 /* Tpool-iPhone-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tpool-iPhone-Info.plist"; sourceTree = "<group>"; };
+		4A6AB0F4156A79AE00E30C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A6AB0F6156A79AE00E30C39 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4A6AB0F8156A79AE00E30C39 /* Tpool-iPhone-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tpool-iPhone-Prefix.pch"; sourceTree = "<group>"; };
+		4A6AB0FD156A79AE00E30C39 /* Tpool_iPhone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tpool_iPhone.xcdatamodel; sourceTree = "<group>"; };
+		4A6AB104156A79AE00E30C39 /* Tpool-iPhoneTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tpool-iPhoneTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A6AB105156A79AE00E30C39 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		4A6AB10E156A79AE00E30C39 /* Tpool-iPhoneTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tpool-iPhoneTests-Info.plist"; sourceTree = "<group>"; };
+		4A6AB110156A79AE00E30C39 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4A6AB112156A79AE00E30C39 /* Tpool_iPhoneTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tpool_iPhoneTests.h; sourceTree = "<group>"; };
+		4A6AB113156A79AE00E30C39 /* Tpool_iPhoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tpool_iPhoneTests.m; sourceTree = "<group>"; };
+		4A6AB11D156A7A0300E30C39 /* Thread.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Thread.cpp; sourceTree = "<group>"; };
+		4A6AB11E156A7A0300E30C39 /* Thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thread.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A6AB0E1156A79AE00E30C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6AB0E9156A79AE00E30C39 /* UIKit.framework in Frameworks */,
+				4A6AB0EB156A79AE00E30C39 /* Foundation.framework in Frameworks */,
+				4A6AB0ED156A79AE00E30C39 /* CoreGraphics.framework in Frameworks */,
+				4A6AB0EF156A79AE00E30C39 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6AB100156A79AE00E30C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6AB106156A79AE00E30C39 /* SenTestingKit.framework in Frameworks */,
+				4A6AB107156A79AE00E30C39 /* UIKit.framework in Frameworks */,
+				4A6AB108156A79AE00E30C39 /* Foundation.framework in Frameworks */,
+				4A6AB109156A79AE00E30C39 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A6AB0D9156A79AD00E30C39 = {
+			isa = PBXGroup;
+			children = (
+				4A6AB0F0156A79AE00E30C39 /* Tpool-iPhone */,
+				4A6AB10C156A79AE00E30C39 /* Tpool-iPhoneTests */,
+				4A6AB0E7156A79AE00E30C39 /* Frameworks */,
+				4A6AB0E5156A79AE00E30C39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4A6AB0E5156A79AE00E30C39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A6AB0E4156A79AE00E30C39 /* Tpool-iPhone.app */,
+				4A6AB104156A79AE00E30C39 /* Tpool-iPhoneTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A6AB0E7156A79AE00E30C39 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A6AB0E8156A79AE00E30C39 /* UIKit.framework */,
+				4A6AB0EA156A79AE00E30C39 /* Foundation.framework */,
+				4A6AB0EC156A79AE00E30C39 /* CoreGraphics.framework */,
+				4A6AB0EE156A79AE00E30C39 /* CoreData.framework */,
+				4A6AB105156A79AE00E30C39 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A6AB0F0156A79AE00E30C39 /* Tpool-iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				4A6AB0FC156A79AE00E30C39 /* Tpool_iPhone.xcdatamodeld */,
+				4A6AB0F1156A79AE00E30C39 /* Supporting Files */,
+			);
+			path = "Tpool-iPhone";
+			sourceTree = "<group>";
+		};
+		4A6AB0F1156A79AE00E30C39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A6AB0F2156A79AE00E30C39 /* Tpool-iPhone-Info.plist */,
+				4A6AB0F3156A79AE00E30C39 /* InfoPlist.strings */,
+				4A6AB0F6156A79AE00E30C39 /* main.cpp */,
+				4A6AB11D156A7A0300E30C39 /* Thread.cpp */,
+				4A6AB11E156A7A0300E30C39 /* Thread.h */,
+				4A6AB0F8156A79AE00E30C39 /* Tpool-iPhone-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4A6AB10C156A79AE00E30C39 /* Tpool-iPhoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A6AB112156A79AE00E30C39 /* Tpool_iPhoneTests.h */,
+				4A6AB113156A79AE00E30C39 /* Tpool_iPhoneTests.m */,
+				4A6AB10D156A79AE00E30C39 /* Supporting Files */,
+			);
+			path = "Tpool-iPhoneTests";
+			sourceTree = "<group>";
+		};
+		4A6AB10D156A79AE00E30C39 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4A6AB10E156A79AE00E30C39 /* Tpool-iPhoneTests-Info.plist */,
+				4A6AB10F156A79AE00E30C39 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A6AB0E3156A79AE00E30C39 /* Tpool-iPhone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6AB117156A79AE00E30C39 /* Build configuration list for PBXNativeTarget "Tpool-iPhone" */;
+			buildPhases = (
+				4A6AB0E0156A79AE00E30C39 /* Sources */,
+				4A6AB0E1156A79AE00E30C39 /* Frameworks */,
+				4A6AB0E2156A79AE00E30C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tpool-iPhone";
+			productName = "Tpool-iPhone";
+			productReference = 4A6AB0E4156A79AE00E30C39 /* Tpool-iPhone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A6AB103156A79AE00E30C39 /* Tpool-iPhoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A6AB11A156A79AE00E30C39 /* Build configuration list for PBXNativeTarget "Tpool-iPhoneTests" */;
+			buildPhases = (
+				4A6AB0FF156A79AE00E30C39 /* Sources */,
+				4A6AB100156A79AE00E30C39 /* Frameworks */,
+				4A6AB101156A79AE00E30C39 /* Resources */,
+				4A6AB102156A79AE00E30C39 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A6AB10B156A79AE00E30C39 /* PBXTargetDependency */,
+			);
+			name = "Tpool-iPhoneTests";
+			productName = "Tpool-iPhoneTests";
+			productReference = 4A6AB104156A79AE00E30C39 /* Tpool-iPhoneTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A6AB0DB156A79AD00E30C39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4A6AB0DE156A79AE00E30C39 /* Build configuration list for PBXProject "Tpool-iPhone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4A6AB0D9156A79AD00E30C39;
+			productRefGroup = 4A6AB0E5156A79AE00E30C39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A6AB0E3156A79AE00E30C39 /* Tpool-iPhone */,
+				4A6AB103156A79AE00E30C39 /* Tpool-iPhoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A6AB0E2156A79AE00E30C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6AB0F5156A79AE00E30C39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6AB101156A79AE00E30C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6AB111156A79AE00E30C39 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4A6AB102156A79AE00E30C39 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A6AB0E0156A79AE00E30C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6AB0F7156A79AE00E30C39 /* main.cpp in Sources */,
+				4A6AB0FE156A79AE00E30C39 /* Tpool_iPhone.xcdatamodeld in Sources */,
+				4A6AB11F156A7A0300E30C39 /* Thread.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6AB0FF156A79AE00E30C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A6AB114156A79AE00E30C39 /* Tpool_iPhoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A6AB10B156A79AE00E30C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A6AB0E3156A79AE00E30C39 /* Tpool-iPhone */;
+			targetProxy = 4A6AB10A156A79AE00E30C39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A6AB0F3156A79AE00E30C39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A6AB0F4156A79AE00E30C39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4A6AB10F156A79AE00E30C39 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A6AB110156A79AE00E30C39 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A6AB115156A79AE00E30C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A6AB116156A79AE00E30C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A6AB118156A79AE00E30C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tpool-iPhone/Tpool-iPhone-Prefix.pch";
+				INFOPLIST_FILE = "Tpool-iPhone/Tpool-iPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4A6AB119156A79AE00E30C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tpool-iPhone/Tpool-iPhone-Prefix.pch";
+				INFOPLIST_FILE = "Tpool-iPhone/Tpool-iPhone-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4A6AB11B156A79AE00E30C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tpool-iPhone.app/Tpool-iPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tpool-iPhone/Tpool-iPhone-Prefix.pch";
+				INFOPLIST_FILE = "Tpool-iPhoneTests/Tpool-iPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		4A6AB11C156A79AE00E30C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Tpool-iPhone.app/Tpool-iPhone";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Tpool-iPhone/Tpool-iPhone-Prefix.pch";
+				INFOPLIST_FILE = "Tpool-iPhoneTests/Tpool-iPhoneTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A6AB0DE156A79AE00E30C39 /* Build configuration list for PBXProject "Tpool-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6AB115156A79AE00E30C39 /* Debug */,
+				4A6AB116156A79AE00E30C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A6AB117156A79AE00E30C39 /* Build configuration list for PBXNativeTarget "Tpool-iPhone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6AB118156A79AE00E30C39 /* Debug */,
+				4A6AB119156A79AE00E30C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4A6AB11A156A79AE00E30C39 /* Build configuration list for PBXNativeTarget "Tpool-iPhoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A6AB11B156A79AE00E30C39 /* Debug */,
+				4A6AB11C156A79AE00E30C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A6AB0FC156A79AE00E30C39 /* Tpool_iPhone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A6AB0FD156A79AE00E30C39 /* Tpool_iPhone.xcdatamodel */,
+			);
+			currentVersion = 4A6AB0FD156A79AE00E30C39 /* Tpool_iPhone.xcdatamodel */;
+			path = Tpool_iPhone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4A6AB0DB156A79AD00E30C39 /* Project object */;
+}
